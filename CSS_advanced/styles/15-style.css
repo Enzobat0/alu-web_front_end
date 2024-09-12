@@ -1,0 +1,20 @@
+/* Import styles from 15-style.css */
+@import url('path/to/15-style.css');
+
+/* Styles for .section-tagline */
+.section-tagline {
+  /* Your styles for .section-tagline go here */
+}
+
+/* Styles for .container class */
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
