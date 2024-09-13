@@ -346,7 +346,7 @@ html {
 
 [data-section-theme="dark"]{
     --text-color: var(--color-white);
-    --section-title-color: var(var(--color-white));
+    --section-title-color: var(--color-white);
     background-color: var(--color-black);
 }
 
