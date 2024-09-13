@@ -341,7 +341,7 @@ html {
 .row::after{
     content: "";
     display: table;
-    float: none;
+    clear: both;
 }
 
   .footer{
