@@ -1,5 +1,5 @@
 @import "103-sort_list";
 
-$sorted-list: sort($list_to_sort);
+// $sorted-list: sort($list_to_sort);
 
-@debug $sorted-list;
+@debug list.sort($list_to_sort, list.compare-string());
