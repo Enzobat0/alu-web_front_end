@@ -1,5 +1,8 @@
 @import "103-sort_list";
 
-// $sorted-list: sort($list_to_sort);
+$sort-order: a b c d e f g h i j k l m n o p 
+			q r s t u v w x y z !default;
 
-@debug list.sort($list_to_sort, list.compare-string());
+
+$sorted-list: sort($list_to_sort, list.compare-string());
+
