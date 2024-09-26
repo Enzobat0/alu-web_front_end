@@ -377,6 +377,11 @@
 .section-latest-news .row {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  /* Section SERVICES ============================= */
+.section-services .row {
+    display: flex;
     flex-wrap: wrap;
   }
   
